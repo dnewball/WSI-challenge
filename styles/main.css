@@ -1,0 +1,111 @@
+.logo-container {
+    padding: 20px 0 20px 0;
+}
+
+.nav-container {
+    background-color: #000;
+    color: #FFF;
+}
+
+.nav-container .nav-item a {
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-container .breadcrumb {
+    background-color: #FFF;
+}
+
+.breadcrumb-container .breadcrumb-item a {
+    text-transform: capitalize;
+    color: #808080;
+    font-size: 10px;
+}
+
+.breadcrumb-container .breadcrumb-item.active {
+    color: #555555;
+    text-transform: capitalize;
+}
+
+.product-title {
+    text-transform: capitalize;
+    padding: 10px 0 10px 5px;
+}
+
+.product-description {
+    font-size: 16px;
+    padding: 0 0 0 5px;
+}
+
+.product-bullets {
+    padding: 10px 0 10px 50px;
+}
+
+.product-price {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.product-quantity {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.add-to-cart {
+    padding: 10px 0 10px 5px;
+    cursor: pointer;
+}
+
+.accordion-container {
+    padding: 15px 0 0 5px;
+}
+
+.accordion-container .card-header {
+    background-color: #fff;
+}
+
+.accordion-container .card-header a {
+    color: #000;
+}
+
+.carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+    cursor: pointer;
+}
+
+.carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+
+.carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+
+.carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+
+.carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #c9c9c9;
+    border-top: 1px solid #555555;
+    color: #555555;
+    padding: 15px 0 15px 0;
+}
